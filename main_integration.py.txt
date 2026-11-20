@@ -1,0 +1,4 @@
+# Добавь в существующий main.py ПОСЛЕ создания объекта FastAPI app.
+# Не заменяй весь main.py этим фрагментом.
+from nft_server import router as nft_router
+app.include_router(nft_router)
